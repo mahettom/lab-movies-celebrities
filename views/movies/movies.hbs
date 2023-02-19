@@ -1,0 +1,22 @@
+
+
+<h1>Movies</h1>
+
+  {{#each allMovies}}
+
+  <h4>{{title}}</h4>
+  <p>{{genre}}</p>
+  <p>{{plot}}</p>
+  <p>{{this.cast}}</p>
+
+  {{/each}}
+
+
+    {{!-- {{#each allCelebrities}}
+
+    {{/each}} --}}
+
+
+<a href="/">Home</a>
+<a href="/movies/create">Create movie</a>
+<a href="/celebrities/create">Create celebrity</a>
